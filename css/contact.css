@@ -1,0 +1,138 @@
+@import url(responsive.css);
+* {
+  padding: 0;
+  margin: 0; }
+
+@font-face {
+  font-family: Poppins, sans-serif; }
+
+body {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  background-color: white; }
+
+/*--------------website-container-1-start-------->*/
+.website-container-1 {
+  width: 90%;
+  margin: 128px 0; }
+  .website-container-1 .contact-header {
+    display: flex;
+    flex-flow: column;
+    align-items: center; }
+    .website-container-1 .contact-header h1 {
+      font-family: Poppins, sans-serif;
+      font-size: 48px;
+      font-weight: 600;
+      line-height: 64px;
+      text-align: center;
+      color: #282938;
+      margin-bottom: 34px; }
+    .website-container-1 .contact-header p {
+      color: #28293870;
+      font-family: Poppins, sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 28px;
+      text-align: center;
+      margin-bottom: 64px; }
+  .website-container-1 .contact-container {
+    width: 100%;
+    background-color: #f4f6fc;
+    border-radius: 12px;
+    display: flex;
+    flex-flow: column;
+    padding: 12px;
+    gap: 16px;
+    justify-content: space-between; }
+    .website-container-1 .contact-container .user-info {
+      display: grid;
+      gap: 16px;
+      grid-template-columns: auto;
+      grid-template-rows: auto auto auto auto; }
+      .website-container-1 .contact-container .user-info div {
+        all: unset;
+        display: flex;
+        flex-flow: column;
+        gap: 6px; }
+        .website-container-1 .contact-container .user-info div label {
+          font-family: Poppins, sans-serif;
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 32px;
+          color: black; }
+        .website-container-1 .contact-container .user-info div input {
+          height: 64px;
+          width: 100%;
+          padding: 18px 32px;
+          border-radius: 8px;
+          background-color: unset;
+          border: 1px solid #28293812; }
+          .website-container-1 .contact-container .user-info div input::placeholder {
+            font-family: Poppins, sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 28px;
+            color: black;
+            opacity: 40%; }
+          .website-container-1 .contact-container .user-info div input:focus {
+            outline: 2px solid #282938; }
+      .website-container-1 .contact-container .user-info .input {
+        display: flex;
+        flex-flow: column; }
+    .website-container-1 .contact-container .user-msg {
+      display: flex;
+      flex-flow: column;
+      gap: 6px; }
+      .website-container-1 .contact-container .user-msg label {
+        font-family: Poppins, sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 32px;
+        color: black; }
+      .website-container-1 .contact-container .user-msg textarea {
+        height: 176px;
+        padding: 18px 32px;
+        border-radius: 8px;
+        background-color: unset;
+        border: 1px solid #28293812; }
+        .website-container-1 .contact-container .user-msg textarea::placeholder {
+          font-family: Poppins, sans-serif;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 28px;
+          color: black;
+          opacity: 40%; }
+        .website-container-1 .contact-container .user-msg textarea:focus {
+          outline: 2px solid #282938; }
+    .website-container-1 .contact-container a {
+      width: fit-content;
+      height: fit-content;
+      align-self: center;
+      margin-top: 16px; }
+    .website-container-1 .contact-container .btn {
+      background-color: #282938;
+      padding: 15px 51px 15px 51px;
+      height: 64px;
+      border-radius: 41px;
+      margin: auto; }
+      .website-container-1 .contact-container .btn span {
+        color: #f4f6fc;
+        font-family: Manrope, sans-serif;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 32px; }
+
+/*--------------website-container-1-end---------->*/
+@media only screen and (min-width: 992px) {
+  .website-container-1 {
+    width: 70%; }
+    .website-container-1 .contact-header p {
+      width: 50%; }
+    .website-container-1 .contact-container {
+      padding: 64px; }
+      .website-container-1 .contact-container a {
+        align-self: unset; }
+      .website-container-1 .contact-container .user-info {
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto; } }

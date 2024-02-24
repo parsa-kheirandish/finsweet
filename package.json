@@ -1,0 +1,31 @@
+{
+  "name": "finsweet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tw-header": "npx tailwindcss -i Tailwind/tw-header.css -o css/header.css --watch",
+    "tw-main": "npx tailwindcss -i Tailwind/tw-main.css -o css/main.css --watch",
+    "tw-blog": "npx tailwindcss -i Tailwind/tw-blog.css -o css/blog.css --watch",
+    "tw-footer": "npx tailwindcss -i Tailwind/tw-footer.css -o css/footer.css --watch",
+    "scss-responsive" : "node-sass -w scss/responsive.scss -o ./css -r",
+    "scssMinify-responsive" : "node-sass -w scss/responsive.scss -o ./css -r --output-style compressed",
+    "scss-about" : "node-sass -w scss/about.scss -o ./css -r",
+    "scssMinify-about" : "node-sass -w scss/about.scss -o ./css -r --output-style compressed",
+    "scss-pricing" : "node-sass -w scss/pricing.scss -o ./css -r",
+    "scssMinify-pricing" : "node-sass -w scss/pricing.scss -o ./css -r --output-style compressed",
+    "scss-contact" : "node-sass -w scss/contact.scss -o ./css -r",
+    "scssMinify-contact" : "node-sass -w scss/contact.scss -o ./css -r --output-style compressed"
+  },
+  "keywords": [],
+  "author": "parsa-kheirandish",
+  "license": "MFT",
+  "devDependencies": {
+    "daisyui": "^4.5.0",
+    "tailwindcss": "^3.4.0"
+  },
+  "dependencies": {
+    "node-sass": "^9.0.0",
+    "prettier-plugin-tailwindcss": "^0.5.10"
+  }
+}

@@ -1,0 +1,136 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+@media only screen and (min-width: 0) {
+  .col-xs-1 {
+    width: 10vw; }
+  .col-xs-2 {
+    width: 20vw; }
+  .col-xs-3 {
+    width: 30vw; }
+  .col-xs-4 {
+    width: 40vw; }
+  .col-xs-5 {
+    width: 50vw; }
+  .col-xs-6 {
+    width: 60vw; }
+  .col-xs-7 {
+    width: 70vw; }
+  .col-xs-8 {
+    width: 80vw; }
+  .col-xs-9 {
+    width: 90vw; }
+  .col-xs-10 {
+    width: 100vw; } }
+
+@media only screen and (min-width: 576px) {
+  .col-sm-1 {
+    width: 10vw; }
+  .col-sm-2 {
+    width: 20vw; }
+  .col-sm-3 {
+    width: 30vw; }
+  .col-sm-4 {
+    width: 40vw; }
+  .col-sm-5 {
+    width: 50vw; }
+  .col-sm-6 {
+    width: 60vw; }
+  .col-sm-7 {
+    width: 70vw; }
+  .col-sm-8 {
+    width: 80vw; }
+  .col-sm-9 {
+    width: 90vw; }
+  .col-sm-10 {
+    width: 100vw; } }
+
+@media only screen and (min-width: 768px) {
+  .col-md-1 {
+    width: 10vw; }
+  .col-md-2 {
+    width: 20vw; }
+  .col-md-3 {
+    width: 30vw; }
+  .col-md-4 {
+    width: 40vw; }
+  .col-md-5 {
+    width: 50vw; }
+  .col-md-6 {
+    width: 60vw; }
+  .col-md-7 {
+    width: 70vw; }
+  .col-md-8 {
+    width: 80vw; }
+  .col-md-9 {
+    width: 90vw; }
+  .col-md-10 {
+    width: 100vw; } }
+
+@media only screen and (min-width: 992px) {
+  .col-lg-1 {
+    width: 10vw; }
+  .col-lg-2 {
+    width: 20vw; }
+  .col-lg-3 {
+    width: 30vw; }
+  .col-lg-4 {
+    width: 40vw; }
+  .col-lg-5 {
+    width: 50vw; }
+  .col-lg-6 {
+    width: 60vw; }
+  .col-lg-7 {
+    width: 70vw; }
+  .col-lg-8 {
+    width: 80vw; }
+  .col-lg-9 {
+    width: 90vw; }
+  .col-lg-10 {
+    width: 100vw; } }
+
+@media only screen and (min-width: 1200px) {
+  .col-xl-1 {
+    width: 10vw; }
+  .col-xl-2 {
+    width: 20vw; }
+  .col-xl-3 {
+    width: 30vw; }
+  .col-xl-4 {
+    width: 40vw; }
+  .col-xl-5 {
+    width: 50vw; }
+  .col-xl-6 {
+    width: 60vw; }
+  .col-xl-7 {
+    width: 70vw; }
+  .col-xl-8 {
+    width: 80vw; }
+  .col-xl-9 {
+    width: 90vw; }
+  .col-xl-10 {
+    width: 100vw; } }
+
+@media only screen and (min-width: 1400px) {
+  .col-xxl-1 {
+    width: 10vw; }
+  .col-xxl-2 {
+    width: 20vw; }
+  .col-xxl-3 {
+    width: 30vw; }
+  .col-xxl-4 {
+    width: 40vw; }
+  .col-xxl-5 {
+    width: 50vw; }
+  .col-xxl-6 {
+    width: 60vw; }
+  .col-xxl-7 {
+    width: 70vw; }
+  .col-xxl-8 {
+    width: 80vw; }
+  .col-xxl-9 {
+    width: 90vw; }
+  .col-xxl-10 {
+    width: 100vw; } }
